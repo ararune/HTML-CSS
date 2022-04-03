@@ -1,0 +1,85 @@
+body {
+    color: #f0f8ff;
+    background: #1b1c1f;
+    font-family: verdana;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    text-align: center;
+    color: #296bf0;
+    font-size: 40px;
+}
+
+h6 {
+    color: #2e53bb;
+}
+
+[id~=prvi] {
+    color: #38cfa9;
+    font-size: 21px;
+}
+
+[id~=treci] {
+    color: #38cfa9;
+    font-size: 21px;
+    font-style: italic;
+}
+
+[class*=ostali] {
+    color: #d32366;
+    font-size: 21px;
+}
+
+a:hover[href="https://www.w3schools.com/"] {
+    font-size: 23px;
+}
+
+a:visited {
+    color: #38cfa9;
+}
+
+h2:hover {
+    text-align: left;
+}
+
+p q {
+    font-style: italic;
+    color: #d32366;
+    font-weight: bold;
+}
+
+p>abbr {
+    color: rgb(236, 46, 46);
+}
+
+p abbr {
+    font-style: italic;
+    color: #38cfa9;
+    font-weight: bold;
+}
+
+p>q>abbr {
+    color: rgb(99, 212, 212);
+}
+
+h2+p {
+    background: #46473f;
+}
+
+
+/* p+a {
+    background: rgb(208, 218, 77);
+    text-decoration: none;
+} */
+
+p~a {
+    background-color: aqua;
+    text-decoration: none;
+    color: #16181a
+}
+
+a[href] {
+    font-style: italic;
+}
